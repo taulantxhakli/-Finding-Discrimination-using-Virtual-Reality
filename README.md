@@ -8,6 +8,7 @@
   * [Development](#development)
   * [Organization](#organization)
   * [Evaluation](#evaluation)
+  * [Responsibilities](#responsibilities)
   * [Sneak-Peek](#sneak-peek)
   * [Contributing](#contributing)
   * [Questions?](#questions) 
@@ -63,6 +64,15 @@ The easiest way to evaluate a project is to constantly test throughout the devel
 	As long as the project ends with a good reception from a social science perspective, in regards to testing biases, then the project will be a success. Especially the subjects who will be put through trial of the VR experience, if their intuition for the scenarios are from the lack of depth or poor execution, rather than the intuition of the subject they are experiencing, the project ends up pointless for the testers. There needs to be a sense of realism and immersion in the mall, as well as high quality NPC interaction, in order for the project to be deemed finished.
 
 
+  ## Responsibilities 
+  | Member | Tasks |
+  | :---: | :---: |
+  | Taulant | Maintaining the workflow between each room throughout the semester. This includes managing the project’s file size to a minimum and keeping the frame rate higher. Will also be continuing work on each scenes “reveal” sections with mirroring and room additions. Adding new NPCs and designing all of the non-discrimination stores, as well as the 4th controlled room. Designing the entrance of the dance hall to indicate to the user that it is there, as right now the door is hidden in the back. Will also add the new improved NPCs with new animations for them to walk around the mall and the store scene.|
+  | Justin | Next step responsibilities include finding accurate ways to measure the three types of prejudice that will be tested in the project. Once that is completed, I will incorporate some of the other research questions we have into the surveys and finalize all of the questions to be ready to run participants through. |
+  | Michael | Will be working with the audio of the mall and the implementation of animations for Theater and Dance Studio NPCs. |
+  | Makendy | Will be working on the voice implementation to the main NPCs and conversation scripts for the user and the NPC. Will also be working with Michael for the Dance Studio on the Motion-Capture implementation. |
+  | Jade Alexis | I will be editing and adding to the XLAB website; such as making the project more presentable and eye catching for the students at the college and talking about projects the team has worked on in the past. Also, I will assist the team in other aspects of the project as well. |
+
   
   ## Sneak-Peek
  
@@ -72,15 +82,6 @@ The easiest way to evaluate a project is to constantly test throughout the devel
   
   ![Alt Text](take_3.jpg)
 
-  ## Responsibilities 
-  | Member | Tasks |
-  | :---: | :---: |
-  | Taulant | Maintaining the workflow between each room throughout the semester. This includes managing the project’s file size to a minimum and keeping the frame rate higher. Will also be continuing work on each scenes “reveal” sections with mirroring and room additions. Adding new NPCs and designing all of the non-discrimination stores, as well as the 4th controlled room. Designing the entrance of the dance hall to indicate to the user that it is there, as right now the door is hidden in the back. Will also add the new improved NPCs with new animations for them to walk around the mall and the store scene.|
-  | Justin | Next step responsibilities include finding accurate ways to measure the three types of prejudice that will be tested in the project. Once that is completed, I will incorporate some of the other research questions we have into the surveys and finalize all of the questions to be ready to run participants through. |
-  | Michael | Will be working with the audio of the mall and the implementation of animations for Theater and Dance Studio NPCs. |
-  | Makendy | Will be working on the voice implementation to the main NPCs and conversation scripts for the user and the NPC. Will also be working with Michael for the Dance Studio on the Motion-Capture implementation. |
-  | Jade Alexis | I will be editing and adding to the XLAB website; such as making the project more presentable and eye catching for the students at the college and talking about projects the team has worked on in the past. Also, I will assist the team in other aspects of the project as well. |
-  
   
   ## Contributing
   
