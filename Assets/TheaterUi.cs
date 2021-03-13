@@ -4,22 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 public class TheaterUi : MonoBehaviour
 {
-    public GameObject NpcDialogue;
-    public GameObject NpcChatBubble;
-    public GameObject NpcName;
-    public GameObject UserChatBubble;
-    public GameObject UserDialogue;
-    public GameObject nextText;
-  
+    
+    public GameObject audio;
     // Start is called before the first frame update
     void Start()
     {
-        NpcDialogue.SetActive(false);
-        NpcChatBubble.SetActive(false);
-        NpcName.SetActive(false);
-        UserChatBubble.SetActive(false);
-        UserDialogue.SetActive(false);
-        nextText.SetActive(false);
+        audio.SetActive(false);
     }
 
     // Update is called once per frame
@@ -31,21 +21,11 @@ public class TheaterUi : MonoBehaviour
     {
         if(other.tag == "Person")
         {
-            NpcDialogue.SetActive(true);
-            NpcChatBubble.SetActive(true);
-            NpcName.SetActive(true);
-            UserChatBubble.SetActive(true);
-            UserDialogue.SetActive(true);
-            nextText.SetActive(true);
+             audio.SetActive(true);
         }
     }
     void OnTriggerExit(Collider other)
     {
-        NpcDialogue.SetActive(false);
-        NpcChatBubble.SetActive(false);
-        NpcName.SetActive(false);
-        UserChatBubble.SetActive(false);
-        UserDialogue.SetActive(false);
-        nextText.SetActive(false);
+        audio.SetActive(false);
     }
 }
