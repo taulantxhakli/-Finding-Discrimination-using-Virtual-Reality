@@ -80,6 +80,11 @@
      <Compile Include="Assets\Oculus\Spatializer\editor\ONSPPropagationSerializationManager.cs" />
      <Compile Include="Assets\Oculus\LipSync\Editor\OVRLipSyncContextMorphTargetEditor.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Editor\BuildAssetPackages.cs" />
+     <Compile Include="Assets\polyperfectfull\Common\Wander Script\Editor\Common_WanderManagerEditor.cs" />
+     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\IK\Editor\PolyIkEditor.cs" />
+     <Compile Include="Assets\polyperfectfull\Common\Wander Script\Editor\Common_StatsTable.cs" />
+     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\Wander Script\Editor\People_WanderScriptEditor.cs" />
+     <Compile Include="Assets\polyperfectfull\Common\Wander Script\Editor\Common_WanderScriptEditor.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
