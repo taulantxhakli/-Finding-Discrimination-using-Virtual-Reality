@@ -83,7 +83,9 @@
      <Compile Include="Assets\OVRinputManager.cs" />
      <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarSkinnedMeshRenderPBSV2Component.cs" />
      <Compile Include="Assets\Oculus\LipSync\Scripts\Helpers\OVRTouchpad.cs" />
+     <Compile Include="Assets\Scripts\mirror.cs" />
      <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarSDKManager.cs" />
+     <Compile Include="Assets\VRRig.cs" />
      <Compile Include="Assets\NPCFollow.cs" />
      <Compile Include="Assets\Security_Guard.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandlerParabolic.cs" />
@@ -100,6 +102,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ColliderZone.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs" />
      <Compile Include="Assets\TheaterUi.cs" />
+     <Compile Include="Assets\AllStarCharacterLibray\Scripts\Outfitter.cs" />
      <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPSettings.cs" />
      <Compile Include="Assets\Oculus\Avatar\Scripts\GazeTarget.cs" />
      <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPAudioSource.cs" />
@@ -125,6 +128,7 @@
      <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPPropagationInterface.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableRegistry.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandlerThumbstick.cs" />
+     <Compile Include="Assets\AllStarCharacterLibray\Scripts\MouseOrbit.cs" />
      <Compile Include="Assets\Oculus\Avatar\Samples\AvatarGallery\Scripts\OvrAvatarTestDriver.cs" />
      <Compile Include="Assets\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\VoipManager.cs" />
      <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncSequence.cs" />
@@ -194,6 +198,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\AllStarCharacterLibray\Scripts\RootMotionOff.cs" />
      <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarSettingsEditor.cs" />
      <Compile Include="Assets\Oculus\Avatar\Samples\GripPoses\Scripts\PoseEditHelper.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\SoundFXRef.cs" />
@@ -205,6 +210,7 @@
      <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarMaterialManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarSDKCAPI.cs" />
+     <Compile Include="Assets\AllStarCharacterLibray\Scripts\SkinnedMeshCombiner.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\NativeVideoPlayer.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
@@ -217,6 +223,7 @@
      <Compile Include="Assets\clerkAudio.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\AllStarCharacterLibray\Scripts\CharacterDemoController.cs" />
      <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarSkinnedMeshRenderComponent.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\CowController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
@@ -228,6 +235,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Water Fountain\Scripts\AnimatedTextureUVs.cs" />
+     <Compile Include="Assets\AllStarCharacterLibray\Scripts\CamTarget.cs" />
      <Compile Include="Assets\ChatBubble.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\Utils\Pose.cs" />
      <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPPropagationGeometry.cs" />
@@ -262,33 +270,6 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\DebugUI\DebugUISample.cs" />
      <Compile Include="Assets\InputManager.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ButtonController.cs" />
-     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\Wander Script\People_WanderScript.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\Wander Script\Common_WanderManager.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\Common_RandomInt.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\Wander Script\Common_AudioManager.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\Wander Script\MovementState.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\Common_AnimSpeed.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\Wander Script\AIState.cs" />
-     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\Character Viewer\CameraController.cs" />
-     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\Character Viewer\EditorExtensions.cs" />
-     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\Wander Script\People_AudioManager.cs" />
-     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\Wander Script\People_WanderManager.cs" />
-     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\IK\HumanBoneOffset.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\Wander Script\Common_SurfaceRotation.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\Common_AnimationControl.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\Wander Script\AIStats.cs" />
-     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\Wander Script\People_SurfaceRotation.cs" />
-     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\IK\PolyIk.cs" />
-     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\CustomPeople.cs" />
-     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\WizardParticles.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\RandomCharacterPlacer.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\Wander Script\IdleState.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\Common_KillSwitch.cs" />
-     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\Wander Script\People_AIStats.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\Wander Script\Common_WanderScript.cs" />
-     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\PolyMorpher.cs" />
-     <Compile Include="Assets\polyperfectfull\Common\Common_PlaySound.cs" />
-     <Compile Include="Assets\polyperfectfull\Low Poly Animated People\- Scripts\Character Viewer\CharacterManager.cs" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
@@ -333,7 +314,6 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\polyperfectfull\Low Poly Animated People\- UI\TextShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainSmokeShader.shader" />
      <None Include="Assets\Water Fountain\Shaders\Water_Shader.shader" />
@@ -364,8 +344,14 @@
  <Reference Include="Unity.Subsystem.Registration">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Burst">
+ <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Burst.Editor">
+ <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Oculus">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
@@ -375,6 +361,9 @@
  </Reference>
  <Reference Include="Unity.XR.Oculus.Editor">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Animation.Rigging">
+ <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Animation.Rigging.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -391,6 +380,12 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Animation.Rigging.Editor">
+ <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Animation.Rigging.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
@@ -399,6 +394,9 @@
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -591,6 +589,9 @@
  </Reference>
  <Reference Include="UnityEngine.XRModule">
  <HintPath>G:/Unity Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Burst.Unsafe">
+ <HintPath>G:/Repository/Discrimination/Library/PackageCache/com.unity.burst@1.2.0-preview.12/Unity.Burst.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>G:/Unity Editor/2020.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

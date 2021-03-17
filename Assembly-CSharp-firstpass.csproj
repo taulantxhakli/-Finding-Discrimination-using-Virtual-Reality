@@ -191,8 +191,14 @@
  <Reference Include="Unity.Subsystem.Registration">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Burst">
+ <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Burst.Editor">
+ <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Oculus">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
@@ -202,6 +208,9 @@
  </Reference>
  <Reference Include="Unity.XR.Oculus.Editor">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Animation.Rigging">
+ <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Animation.Rigging.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -218,6 +227,12 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Animation.Rigging.Editor">
+ <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Animation.Rigging.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
@@ -226,6 +241,9 @@
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>G:/Repository/Discrimination/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -418,6 +436,9 @@
  </Reference>
  <Reference Include="UnityEngine.XRModule">
  <HintPath>G:/Unity Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Burst.Unsafe">
+ <HintPath>G:/Repository/Discrimination/Library/PackageCache/com.unity.burst@1.2.0-preview.12/Unity.Burst.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>G:/Unity Editor/2020.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

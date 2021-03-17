@@ -264,6 +264,9 @@
  <Reference Include="UnityEditor.UWP.Extensions">
  <HintPath>G:/Unity Editor/2020.1.6f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Burst.Unsafe">
+ <HintPath>G:/Repository/Discrimination/Library/PackageCache/com.unity.burst@1.2.0-preview.12/Unity.Burst.Unsafe.dll</HintPath>
+ </Reference>
  <Reference Include="nunit.framework">
  <HintPath>G:/Repository/Discrimination/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
