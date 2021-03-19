@@ -11,7 +11,6 @@
   * [Responsibilities](#responsibilities)
   * [Sneak-Peek](#sneak-peek)
   * [Contributing](#contributing)
-  * [Questions?](#questions) 
   
   
   ## Description
