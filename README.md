@@ -86,17 +86,3 @@ The easiest way to evaluate a project is to constantly test throughout the devel
   ## Contributing
   
   Contributions are always accepted. This is an on-going project that anyone in the future can use and implement new ideas.
-  
-  ---
-  
-  ## Questions?
-  
-  ![Developer Profile Picture](https://avatars.githubusercontent.com/u/58316986?s=460&u=b6d47b95334d6366fb3a422f40454ac40f571a9f&v=4) 
-  
-  For any questions, please contact me with the information below:
- 
-  Email: txhakli@gmail.com
-  
-  For just chatting and getting to know me on an unprofessional level:
-  
-  Discord: taulant#1999
