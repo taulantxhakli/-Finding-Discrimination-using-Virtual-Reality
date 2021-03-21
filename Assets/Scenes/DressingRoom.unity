@@ -123,6 +123,41 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &307352107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4900746729742661584, guid: 0fa265a2493075b4cb6ab3d2f077e00f, type: 3}
+  m_PrefabInstance: {fileID: 1973118300}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &307352108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307352107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 078da05d0073ddc4f8fd2d33a15766c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smoothing: 0.38
+--- !u!114 &307352113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307352107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fb6dbc121648b4cbee640221378d66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footOffset: {x: 0, y: 0.22, z: 0}
+  rightFootPosWeight: 1
+  rightFootRotWeight: 1
+  leftFootPosWeight: 1
+  leftFootRotWeight: 1
 --- !u!1001 &333235955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -384,6 +419,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4900746729742166544, guid: 0fa265a2493075b4cb6ab3d2f077e00f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.006885923
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900746729742166544, guid: 0fa265a2493075b4cb6ab3d2f077e00f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.16065386
+      objectReference: {fileID: 0}
     - target: {fileID: 4900746729742166576, guid: 0fa265a2493075b4cb6ab3d2f077e00f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.084762
@@ -428,10 +471,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4900746729742166620, guid: 0fa265a2493075b4cb6ab3d2f077e00f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0068859267
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900746729742166620, guid: 0fa265a2493075b4cb6ab3d2f077e00f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.1606539
+      objectReference: {fileID: 0}
     - target: {fileID: 4900746729742661584, guid: 0fa265a2493075b4cb6ab3d2f077e00f, type: 3}
       propertyPath: m_Name
       value: casual07_m (1) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4900746729749906850, guid: 0fa265a2493075b4cb6ab3d2f077e00f, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c8192fe6dded0aa48a81d15eab6106bb, type: 2}
     - target: {fileID: 6544424529474045628, guid: 0fa265a2493075b4cb6ab3d2f077e00f, type: 3}
       propertyPath: head.vrTarget
       value: 
@@ -444,6 +499,10 @@ PrefabInstance:
       propertyPath: rightHand.vrTarget
       value: 
       objectReference: {fileID: 2046149814}
+    - target: {fileID: 6544424529474045628, guid: 0fa265a2493075b4cb6ab3d2f077e00f, type: 3}
+      propertyPath: head.trackingPositionOffset.y
+      value: -0.18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fa265a2493075b4cb6ab3d2f077e00f, type: 3}
 --- !u!1001 &2046149811
@@ -932,7 +991,7 @@ Transform:
   m_Children:
   - {fileID: 9173060924441923660}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &9173060924441923648
 Transform:
