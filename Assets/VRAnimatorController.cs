@@ -10,6 +10,7 @@ public class VRAnimatorController : MonoBehaviour
     private Animator animator;
     private Vector3 previousPos;
     private VRRig vrRig;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,9 +31,20 @@ public class VRAnimatorController : MonoBehaviour
         float previousDirectionX = animator.GetFloat("DirectionX");
         float previousDirectionY = animator.GetFloat("DirectionY");
 
-        animator.SetBool("isMoving", headsetLocalSpeed.magnitude > speedThreshold);
+        OVRInput.Get(OVRInput.Button.PrimaryThumbstickUp);
+        //animator.SetBool("isMoving", headsetLocalSpeed.magnitude > speedThreshold);
         animator.SetFloat("DirectionX", Mathf.Lerp(previousDirectionX, Mathf.Clamp(headsetLocalSpeed.x, -1, 1), smoothing));
         animator.SetFloat("DirectionY", Mathf.Lerp(previousDirectionY, Mathf.Clamp(headsetLocalSpeed.z, -1, 1), smoothing));
 
-    }
+        if (OVRInput.Get(OVRInput.Button.PrimaryThumbstickUp))
+        {
+            animator.SetBool("isMoving", true);
+        }
+        else
+        {
+            animator.SetBool("isMoving", false);
+        }
+
+    } 
+
 }

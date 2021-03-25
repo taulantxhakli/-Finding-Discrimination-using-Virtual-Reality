@@ -481,7 +481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4900746729742661584, guid: 0fa265a2493075b4cb6ab3d2f077e00f, type: 3}
       propertyPath: m_Name
-      value: casual07_m (1) Variant
+      value: DressRoomCharacter
       objectReference: {fileID: 0}
     - target: {fileID: 4900746729749906850, guid: 0fa265a2493075b4cb6ab3d2f077e00f, type: 3}
       propertyPath: m_Controller
