@@ -19,15 +19,15 @@ Below is the 11 page paper written to the clients for the Project Based (XLAB 40
   ## Team
 St. Thomas Aquinas College
 
-Taulant Xhakli (Unity Developer & Project Manager)
+Taulant Xhakli (Unity Dev)
 
-Makendy Midouin (Dialogue Implementation & Communication)
+Makendy Midouin (Unity Dev)
 
-Justin Rosenberg (Reasearcher & Social Psychologist)
+Michael Sakmann (Unity Dev)
 
-Michael Sakmann (Animations & Scene Building)
+Justin Rosenberg (Social Psychologist)
 
-Jade Alexis Westhoven (Web Designer & Arts)
+Jade Alexis Westhoven (Web Dev)
 
 
   ## Overview
