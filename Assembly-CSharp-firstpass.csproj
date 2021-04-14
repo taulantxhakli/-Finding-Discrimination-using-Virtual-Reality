@@ -183,76 +183,76 @@
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
  <Reference Include="Unity.XR.Management">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Subsystem.Registration">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst.Editor">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Oculus">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Oculus.Editor">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Animation.Rigging">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.Animation.Rigging.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.Animation.Rigging.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Management.Editor">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Animation.Rigging.Editor">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.Animation.Rigging.Editor.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.Animation.Rigging.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics.Editor">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -438,7 +438,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst.Unsafe">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/PackageCache/com.unity.burst@1.2.0-preview.12/Unity.Burst.Unsafe.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/PackageCache/com.unity.burst@1.2.0-preview.12/Unity.Burst.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

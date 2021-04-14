@@ -7,6 +7,7 @@ public class ClerkNPC : MonoBehaviour
 {
     //GameObject Person;
     //NavMeshAgent ClerkNPC;
+
     //Transform that NPC has to follow
     public Transform transformToFollow;
     //NavMesh Agent variable

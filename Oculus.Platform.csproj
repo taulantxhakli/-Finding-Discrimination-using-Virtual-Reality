@@ -232,10 +232,10 @@
      <Compile Include="Assets\Oculus\Platform\Scripts\MatchmakingOptions.cs" />
      <None Include="Assets\Oculus\Platform\Oculus.Platform.asmdef" />
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -427,7 +427,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst.Unsafe">
- <HintPath>C:/Users/Steel/Desktop/XLAB 400/Repo/Discrimination/Library/PackageCache/com.unity.burst@1.2.0-preview.12/Unity.Burst.Unsafe.dll</HintPath>
+ <HintPath>C:/Users/stacvr/Desktop/XLAB400 Discrmination/GitHub/Discrimination/Library/PackageCache/com.unity.burst@1.2.0-preview.12/Unity.Burst.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
