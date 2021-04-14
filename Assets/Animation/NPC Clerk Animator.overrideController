@@ -6,7 +6,7 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NPC Wander Animator
+  m_Name: NPC Clerk Animator
   m_Controller: {fileID: 9100000, guid: 62d9d5523b73c7d4d94fce94b9a8dd7f, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: -203655887218126122, guid: 88e3cd8f444388545991ee2484448e35, type: 3}

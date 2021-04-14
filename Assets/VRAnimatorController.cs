@@ -6,7 +6,7 @@ public class VRAnimatorController : MonoBehaviour
 {
     [Range (0,1)]
     public float smoothing = 1;
-    private float speedThreshold = 0.1f;
+    //private float speedThreshold = 0.1f;
     private Animator animator;
     private Vector3 previousPos;
     private VRRig vrRig;
