@@ -7,6 +7,8 @@ public class clerkAudio : MonoBehaviour
     public string ClerkName;
     public AudioClip[] clerkDialogue;
     private AudioSource audioSource;
+    private GameObject triggeringNPC;
+    private bool triggering;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +38,25 @@ public class clerkAudio : MonoBehaviour
             //5. Go back to #2 and play the next audio in the adClips array
         }
     }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "NPC")
+        {
+            triggering = true;
+            triggeringNPC = other.gameObject;
 
+        }
+    }
+
+    // Deactivates the update function when player exits box collider
+    void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "NPC")
+        {
+            triggering = false;
+            triggeringNPC = null;
+
+        }
+    }
 
 }
