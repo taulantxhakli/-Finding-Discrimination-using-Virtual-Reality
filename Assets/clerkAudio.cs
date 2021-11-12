@@ -13,7 +13,7 @@ public class clerkAudio : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        StartCoroutine(playAudioSequentially());
+       // StartCoroutine(playAudioSequentially());
     }
 
     IEnumerator playAudioSequentially()
@@ -40,21 +40,21 @@ public class clerkAudio : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "NPC")
+        if (other.tag == "Person")
         {
             triggering = true;
-            triggeringNPC = other.gameObject;
-
+           
+            StartCoroutine(playAudioSequentially());
         }
     }
 
     // Deactivates the update function when player exits box collider
     void OnTriggerExit(Collider other)
     {
-        if (other.tag == "NPC")
+        if (other.tag == "Person")
         {
             triggering = false;
-            triggeringNPC = null;
+            audioSource.Stop();
 
         }
     }
