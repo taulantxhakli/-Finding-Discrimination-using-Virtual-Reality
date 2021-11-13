@@ -62440,8 +62440,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ClerkName: jack
   clerkDialogue:
-  - {fileID: 8300000, guid: 5ac6fe579e904064b92a0c15d2cc1222, type: 3}
-  - {fileID: 8300000, guid: 33a0d552717ab4c2e87a77c856d9aaf3, type: 3}
+  - {fileID: 8300000, guid: 2b79107dbfb0a4471b9670fa6ca4d83a, type: 3}
+  - {fileID: 8300000, guid: d5ce957ae300d4e94a4b3990e087b1f3, type: 3}
+  - {fileID: 8300000, guid: 184d52c5e5ae3433fa83ed93204a2bc4, type: 3}
 --- !u!65 &1304386109
 BoxCollider:
   m_ObjectHideFlags: 0
