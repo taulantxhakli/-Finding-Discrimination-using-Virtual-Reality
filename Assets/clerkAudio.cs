@@ -6,6 +6,8 @@ public class clerkAudio : MonoBehaviour
 {
     public string ClerkName;
     public AudioClip[] clerkDialogue;
+    public AudioClip exitWhistle;
+    private AudioSource exitAudio;
     private AudioSource audioSource;
     private GameObject triggeringNPC;
     private bool triggering;
@@ -13,6 +15,7 @@ public class clerkAudio : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        exitAudio = GetComponent<AudioSource>();
        // StartCoroutine(playAudioSequentially());
     }
 
@@ -53,8 +56,12 @@ public class clerkAudio : MonoBehaviour
     {
         if (other.tag == "Person")
         {
+            //Once Player Exits collider the conversation stops
             triggering = false;
             audioSource.Stop();
+            //Then the clerk whistles when the player exits the collider
+            exitAudio.clip = exitWhistle;
+            exitAudio.Play();
 
         }
     }
