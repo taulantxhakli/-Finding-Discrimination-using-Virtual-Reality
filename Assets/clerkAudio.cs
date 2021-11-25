@@ -6,12 +6,15 @@ public class clerkAudio : MonoBehaviour
 {  
     public string ClerkName;
     public AudioClip[] clerkDialogue;
+    public AudioClip exitWhistle;
     private AudioSource audioSource;
+    private AudioSource exitAudio;
     // Start is called before the first frame update
     void Start()
     {
          audioSource = GetComponent<AudioSource>();
-         StartCoroutine(playAudioSequentially());
+         exitAudio = GetComponent<AudioSource>();
+         
     }
 
     IEnumerator playAudioSequentially()
@@ -34,6 +37,28 @@ public class clerkAudio : MonoBehaviour
             }
 
             //5. Go back to #2 and play the next audio in the adClips array
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Person")
+        {
+            
+            StartCoroutine(playAudioSequentially());
+
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if(other.tag == "Person")
+        {
+        //Once Player Exits collider the Conversation stops 
+           audioSource.Stop();
+           // Then the clerk whistles when the player exits the collider
+           exitAudio.clip = exitWhistle;
+           exitAudio.Play();
         }
     }
 }
