@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class clerkAudio : MonoBehaviour
@@ -46,7 +47,7 @@ public class clerkAudio : MonoBehaviour
         {
             
             StartCoroutine(playAudioSequentially());
-
+            Console.WriteLine("Npc is in the Collider");
         }
     }
 
