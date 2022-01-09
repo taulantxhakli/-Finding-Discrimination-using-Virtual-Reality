@@ -10,7 +10,7 @@
   * [Evaluation](#evaluation)
   * [Responsibilities](#responsibilities)
   * [Sneak-Peek](#sneak-peek)
-  * [Contributing](#contributing)
+
   
   
   ## Description
@@ -82,7 +82,3 @@ The easiest way to evaluate a project is to constantly test throughout the devel
   
   ![Alt Text](take_3.jpg)
 
-  
-  ## Contributing
-  
-  Contributions are always accepted. This is an on-going project that anyone in the future can use and implement new ideas.
