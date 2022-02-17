@@ -6,6 +6,7 @@ using UnityEngine;
 public class clerkAudio : MonoBehaviour
 {  
     public string ClerkName;
+    public int count = 0;
     public AudioClip[] clerkDialogue;
     public AudioClip exitWhistle;
     private AudioSource audioSource;
@@ -36,14 +37,15 @@ public class clerkAudio : MonoBehaviour
             {
                 yield return null;
             }
-
+           
             //5. Go back to #2 and play the next audio in the adClips array
-        }
+        } 
+        count++;
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Person")
+        if(other.tag == "Person" && count == 0)
         {
             
             StartCoroutine(playAudioSequentially());
