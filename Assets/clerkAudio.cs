@@ -37,7 +37,7 @@ public class clerkAudio : MonoBehaviour
             {
                 yield return null;
             }
-           
+            Console.WriteLine("conversation --------" + i);
             //5. Go back to #2 and play the next audio in the adClips array
         } 
         count++;
@@ -49,7 +49,7 @@ public class clerkAudio : MonoBehaviour
         {
             
             StartCoroutine(playAudioSequentially());
-            Console.WriteLine("Npc is in the Collider");
+            Console.WriteLine("Npc is in the Collider" + count);
         }
     }
 
