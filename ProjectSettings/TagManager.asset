@@ -11,6 +11,8 @@ TagManager:
   - BathroomExit
   - DressingRoomExit
   - DressingRoom
+  - DanceExit
+  - DanceBR
   layers:
   - Default
   - TransparentFX

@@ -61,6 +61,12 @@ public class EnterNewScene : MonoBehaviour
             SceneManager.LoadScene(0);
         }
 
+        if (hit.gameObject.tag == "DanceBR")
+        {
+            Debug.Log("hit the dance studio br door");
+            SceneManager.LoadScene(4);
+        }
+
         if (hit.gameObject.tag == "Bathroom")
         {
             Debug.Log("hit the bathroom door");

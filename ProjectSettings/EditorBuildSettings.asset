@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DressingRoom.unity
     guid: a65fe8e1a6f83bc4eb3087e5577946f7
+  - enabled: 1
+    path: Assets/Scenes/Bathroom DS.unity
+    guid: 7ffcd6d2dfce38646a00ca3a7b73bd01
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7bd742e39a3a34c448740c9a65933f0e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 024277e35eb03f442ace15f0041b04e7, type: 2}
