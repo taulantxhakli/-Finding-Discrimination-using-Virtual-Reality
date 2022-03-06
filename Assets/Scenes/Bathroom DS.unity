@@ -6784,18 +6784,18 @@ MonoBehaviour:
   head:
     vrTarget: {fileID: 2046025279}
     rigTarget: {fileID: 1198521220}
-    trackingPositionOffset: {x: 0, y: 0, z: 0}
-    trackingRotationOffset: {x: 0, y: 0, z: 0}
+    trackingPositionOffset: {x: 0, y: -0.12, z: -0.09}
+    trackingRotationOffset: {x: 180, y: 90, z: 90}
   leftHand:
     vrTarget: {fileID: 2045936465}
     rigTarget: {fileID: 161048442}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
-    trackingRotationOffset: {x: 0, y: 0, z: 0}
+    trackingRotationOffset: {x: 90, y: 90, z: 0}
   rightHand:
     vrTarget: {fileID: 2045940543}
     rigTarget: {fileID: 1204056238}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
-    trackingRotationOffset: {x: 0, y: 0, z: 0}
+    trackingRotationOffset: {x: -90, y: 90, z: 0}
   headConstraint: {fileID: 1198521220}
   headBodyOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &2210594651327807855
