@@ -6782,21 +6782,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   head:
-    vrTarget: {fileID: 0}
-    rigTarget: {fileID: 0}
+    vrTarget: {fileID: 2046025279}
+    rigTarget: {fileID: 1198521220}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   leftHand:
-    vrTarget: {fileID: 0}
-    rigTarget: {fileID: 0}
+    vrTarget: {fileID: 2045936465}
+    rigTarget: {fileID: 161048442}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   rightHand:
-    vrTarget: {fileID: 0}
-    rigTarget: {fileID: 0}
+    vrTarget: {fileID: 2045940543}
+    rigTarget: {fileID: 1204056238}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
-  headConstraint: {fileID: 0}
+  headConstraint: {fileID: 1198521220}
   headBodyOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &2210594651327807855
 GameObject:
