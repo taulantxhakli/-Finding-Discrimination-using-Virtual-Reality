@@ -25,8 +25,6 @@ Makendy Midouin (Unity Dev)
 
 Michael Sakmann (Unity Dev)
 
-Besnik Idrizi (Unity Dev)
-
 Justin Rosenberg (Social Psychologist)
 
 Jade Alexis Westhoven (Web Dev)
