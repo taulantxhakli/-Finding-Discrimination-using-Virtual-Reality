@@ -21,7 +21,8 @@ public class clerkAudio : MonoBehaviour
 
     IEnumerator playAudioSequentially()
     {
-              yield return null;
+        WaitForSeconds wfs = new WaitForSeconds(5);
+        yield return null;
 
         //1.Loop through each AudioClip
         for (int i = 0; i < clerkDialogue.Length; i++)
@@ -35,7 +36,7 @@ public class clerkAudio : MonoBehaviour
             //4.Wait for it to finish playing
             while (audioSource.isPlaying)
             {
-                yield return null;
+                yield return wfs;
             }
            
             //5. Go back to #2 and play the next audio in the adClips array
