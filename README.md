@@ -10,6 +10,12 @@
   * [Evaluation](#evaluation)
   * [Sneak-Peek](#sneak-peek)
 
+  ## Notice:
+  This repository and project was owned and led by Taulant Xhakli (https://www.linkedin.com/in/taulantxhakli/)
+
+  Transfered ownership to Makendy due to my lack of interest in public repositories. 
+  
+  To contact me, use this email: taulant_xhakli@outlook.com
   
   
   ## Description
@@ -21,8 +27,6 @@ St. Thomas Aquinas College
 Taulant Xhakli (Unity Dev)
 
 Makendy Midouin (Unity Dev)
-
-Michael Sakmann (Unity Dev)
 
 Justin Rosenberg (Social Psychologist)
 
